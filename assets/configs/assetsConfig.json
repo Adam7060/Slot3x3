@@ -1,0 +1,62 @@
+[
+  {
+    "type": "image",
+    "key": "background",
+    "path": "assets/background.jpg"
+  },
+  {
+    "type": "image",
+    "key": "reels-view",
+    "path": "assets/reels-view-bg.png"
+  },
+  {
+    "type": "image",
+    "key": "spin-button-disabled",
+    "path": "assets/ui/spin-button-disabled.png"
+  },
+  {
+    "type": "image",
+    "key": "spin-button-hover",
+    "path": "assets/ui/spin-button-hover.png"
+  },
+  {
+    "type": "image",
+    "key": "spin-button-normal",
+    "path": "assets/ui/spin-button-normal.png"
+  },
+  {
+    "type": "image",
+    "key": "symbol-A",
+    "path": "assets/symbols/A.png"
+  },
+  {
+    "type": "image",
+    "key": "symbol-J",
+    "path": "assets/symbols/J.png"
+  },
+  {
+    "type": "image",
+    "key": "symbol-K",
+    "path": "assets/symbols/K.png"
+  },
+  {
+    "type": "spritesheet",
+    "key": "spritesheet-A",
+    "path": "assets/anims/A.png"
+  },
+  {
+    "type": "spritesheet",
+    "key": "spritesheet-J",
+    "path": "assets/anims/J.png"
+  },
+  {
+    "type": "spritesheet",
+    "key": "spritesheet-K",
+    "path": "assets/anims/K.png"
+  },
+  {
+    "type": "spritesheet",
+    "key": "spritesheet-spin",
+    "path": "assets/anims/spin.png"
+  }
+]

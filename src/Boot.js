@@ -1,23 +1,42 @@
-import * as PIXI from 'pixi.js';
+import { Application } from 'pixi.js';
 import GameMain from './GameMain';
+import GamePreloader from './GamePreloader';
 
-const app = new PIXI.Application({
+// Initialize the PIXI application
+const app = new Application({
   resizeTo: window,
   resolution: window.devicePixelRatio,
-  autoDensity: true
+  autoDensity: true,
+  backgroundColor: 0x7c4700 // White background
 });
 document.getElementById('gameContainer').appendChild(app.view);
 
-const game = new GameMain(app);
+let preloader, game;
 
-// Handle window resize
-window.addEventListener('resize', resize);
-
-function resize() {
-  app.renderer.resize(window.innerWidth, window.innerHeight);
-  // Adjust the slot machine elements accordingly
-  GameMain.resize();
+function bootGame() {
+  // Initialize the preloader and start loading assets
+  preloader = new GamePreloader(app);
+  preloader.load(() => {
+    // Assets loaded, start the game
+    game = new GameMain(app);
+    game.start();
+    // Cleanup preloader after starting the game
+    preloader.destroy();
+    preloader = null; // Clear the preloader from memory
+  });
 }
 
-// Initial resize
-resize();
+function resize() {
+  if (preloader) {
+    preloader.resize();
+  }
+  if (game) {
+    game.resize();
+  }
+}
+
+// Add a single resize event listener
+window.addEventListener('resize', resize);
+
+// Start the boot process
+bootGame();

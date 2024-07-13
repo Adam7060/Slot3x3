@@ -1,0 +1,20 @@
+{
+  "landscape": {
+    "loading": {
+      "fontFamily": "Arial",
+      "fontSize": 40,
+      "color": "#ffffff",
+      "posX": 960,
+      "posY": 540
+    }
+  },
+  "portrait": {
+    "loading": {
+      "fontFamily": "Arial",
+      "fontSize": 80,
+      "color": "#ffffff",
+      "posX": 540,
+      "posY": 960
+    }
+  }
+}
