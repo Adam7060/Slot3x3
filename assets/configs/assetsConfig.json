@@ -2,61 +2,61 @@
   {
     "type": "image",
     "key": "background",
-    "path": "assets/background.jpg"
+    "path": "background.jpg"
   },
   {
     "type": "image",
-    "key": "reels-view",
-    "path": "assets/reels-view-bg.png"
+    "key": "reels-view-bg",
+    "path": "reels-view-bg.png"
   },
   {
     "type": "image",
     "key": "spin-button-disabled",
-    "path": "assets/ui/spin-button-disabled.png"
+    "path": "ui/spin-button-disabled.png"
   },
   {
     "type": "image",
     "key": "spin-button-hover",
-    "path": "assets/ui/spin-button-hover.png"
+    "path": "ui/spin-button-hover.png"
   },
   {
     "type": "image",
     "key": "spin-button-normal",
-    "path": "assets/ui/spin-button-normal.png"
+    "path": "ui/spin-button-normal.png"
   },
   {
     "type": "image",
     "key": "symbol-A",
-    "path": "assets/symbols/A.png"
+    "path": "symbols/A.png"
   },
   {
     "type": "image",
     "key": "symbol-J",
-    "path": "assets/symbols/J.png"
+    "path": "symbols/J.png"
   },
   {
     "type": "image",
     "key": "symbol-K",
-    "path": "assets/symbols/K.png"
+    "path": "symbols/K.png"
   },
   {
     "type": "spritesheet",
     "key": "spritesheet-A",
-    "path": "assets/anims/A.png"
+    "path": "anims/A.png"
   },
   {
     "type": "spritesheet",
     "key": "spritesheet-J",
-    "path": "assets/anims/J.png"
+    "path": "anims/J.png"
   },
   {
     "type": "spritesheet",
     "key": "spritesheet-K",
-    "path": "assets/anims/K.png"
+    "path": "anims/K.png"
   },
   {
     "type": "spritesheet",
     "key": "spritesheet-spin",
-    "path": "assets/anims/spin.png"
+    "path": "anims/spin.png"
   }
 ]

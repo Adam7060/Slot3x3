@@ -6,6 +6,38 @@
       "color": "#ffffff",
       "posX": 960,
       "posY": 540
+    },
+    "reelsView": {
+      "posY": 50
+    },
+    "symbols": {
+      "width": 250,
+      "height": 250,
+      "spin": {
+        "frameCount": 3,
+        "frame": {
+          "width": 252,
+          "height": 272
+        }
+      },
+      "win": {
+        "frameCount": 33,
+        "frame": {
+          "width": 250,
+          "height": 250
+        }
+      }
+    },
+    "reels": {
+      "startingY": 20,
+      "startingX": 10,
+      "reelWidth": 260,
+      "reelHeight": 750,
+      "spacing": 13
+    },
+    "spinButton": {
+      "posX": 960,
+      "posY": 960
     }
   },
   "portrait": {
@@ -14,6 +46,38 @@
       "fontSize": 80,
       "color": "#ffffff",
       "posX": 540,
+      "posY": 960
+    },
+    "reelsView": {
+      "posY": -100
+    },
+    "symbols": {
+      "width": 250,
+      "height": 250,
+      "spin": {
+        "frameCount": 3,
+        "frame": {
+          "width": 252,
+          "height": 272
+        }
+      },
+      "win": {
+        "frameCount": 33,
+        "frame": {
+          "width": 250,
+          "height": 250
+        }
+      }
+    },
+    "reels": {
+      "startingY": 20,
+      "startingX": 10,
+      "reelWidth": 260,
+      "reelHeight": 750,
+      "spacing": 13
+    },
+    "spinButton": {
+      "posX": 960,
       "posY": 960
     }
   }
